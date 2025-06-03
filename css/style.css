@@ -28,3 +28,101 @@ body{
     margin-right: 70px;
     font-size: 25px;
 }
+#header_ul li:first-child{
+    margin-right: auto;
+}
+#header_ul li:last-child{
+    font-size: 27px;
+    color: white;
+    position: relative;
+}
+#header_ul li a{
+    color: white;
+    text-decoration: none;
+}
+#header_ul .nav_a_items:hover,#envelope:hover{
+    transform: scale(1.1);
+    text-decoration: underline rgb(247, 248, 248);
+}
+.nav_items a:active,.nav_items a:visited{
+    transform: scale(1.1);
+    text-decoration: underline rgb(12, 224, 224);
+}
+#first_sect{
+    background: url("/images/mohammad-rahmani-8qEB0fTe9Vw-unsplash.jpg");
+    /* background-color:  gray; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    padding-left: 40px;
+    display: flex;
+    column-gap: 60px;
+    color: white;
+    align-items: center;
+     height: 100vh;
+     position: relative;
+     overflow: scroll;
+     scrollbar-width: none;
+    justify-self: center;
+    width: 100%;
+}
+#side_nav{
+    margin-top: -160px;
+}
+.side_li a{
+    color: white;
+    text-decoration: none;
+}
+.side_li {
+    margin-top: 8px;
+    width: 25px;
+    text-align: center;
+    font-size: 21px;
+}
+#name h1{
+    text-transform: capitalize;
+    font-family: sans;
+    font-size: 70px;
+    color: rgb(255, 153, 0);
+    letter-spacing: 1px;
+    padding-left: 9px;
+}
+#name h2{
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+}
+#name p{
+    margin-top: 15px;
+    width: 400px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+/* my recent work page */
+#recent_article{
+    width: 100vw;
+    height: 110vh;
+    /* overflow: auto; */
+    scrollbar-width: none;
+  
+}
+#recent_div_h1{
+    padding-left: 150px;
+    height: 15vh;
+    align-content: center;
+}
+#recent_h1{
+    position: relative;
+    font-family: 'lora', serif, sans-serif;
+    font-size: 45px;
+    font-weight: 900;
+}
+#recent_h1::after{
+    content: "";
+    position: absolute;
+    left: 490px;
+    top: 39px;
+    background-color: rgb(0, 0, 0);
+    width: 600px;
+    height: 1px;
+}
