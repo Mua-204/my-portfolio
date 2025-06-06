@@ -496,14 +496,11 @@ footer{
 #back_up{
     width: 120px;
     height: 30px;
-    color: white;
-    font-size: 18px;
     font-family: 'lora', sans-serif;
-    margin-right: 70px;
-    float: right;
+    margin-right: 12px;
     font-weight: 700;
     border: 2px solid rgb(161, 4, 209);
-    margin-bottom: 35px;
+    margin-bottom: 15px;
 }
 #back_up a{
     text-decoration: none;
@@ -511,6 +508,12 @@ footer{
 #back_up a:hover{
     text-decoration: none;
     color: rgb(196, 18, 18);
+}
+#back_up_div{
+    background-color: transparent;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
 }
 
 
